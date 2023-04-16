@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex h-screen bg-black">
-      <div className="w-screen h-screen flex flex-col justify-center items-center">
+    <div className = {`flex h-screen bg-ivory dark:bg-violet-700`} >
+      <div className="w-screen h-screen flex flex-col justify-center items-center text-purple">
         <Image
           width={512}
           height={512}
@@ -14,29 +14,10 @@ export default function Home() {
         />
         <div className="text-center max-w-screen-sm mb-10">
           <h1 className="text-stone-200 font-bold text-2xl">
-            Next.js Prisma MySQL Auth Starter
+            Descubra-se
           </h1>
           <p className="text-stone-400 mt-5">
-            This is a{" "}
-            <a
-              href="https://nextjs.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-stone-400 underline hover:text-stone-200 transition-all"
-            >
-              Next.js
-            </a>{" "}
-            starter kit that uses{" "}
-            <a
-              href="https://next-auth.js.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-stone-400 underline hover:text-stone-200 transition-all"
-            >
-              Next-Auth
-            </a>{" "}
-            for simple email + password login and a MySQL database to persist
-            the data.
+            ou pelo menos..se divirta tentando
           </p>
         </div>
         <div className="flex space-x-3">

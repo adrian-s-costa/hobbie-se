@@ -102,17 +102,17 @@ export default function Form({ type }: { type: "login" | "register" }) {
         )}
       </button>
       {type === "login" ? (
-        <p className="text-center text-sm text-gray-600">
+        <p className="text-center text-sm text-purple">
           Don&apos;t have an account?{" "}
-          <Link href="/register" className="font-semibold text-gray-800">
+          <Link href="/register" className="font-semibold text-purple">
             Sign up
           </Link>{" "}
           for free.
         </p>
       ) : (
-        <p className="text-center text-sm text-gray-600">
+        <p className="text-center text-sm text-purple">
           Already have an account?{" "}
-          <Link href="/login" className="font-semibold text-gray-800">
+          <Link href="/login" className="font-semibold text-purple">
             Sign in
           </Link>{" "}
           instead.
