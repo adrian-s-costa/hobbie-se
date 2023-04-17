@@ -16,14 +16,14 @@ export default function Login() {
               height={20}
             />
           </Link>
-          <h3 className="text-xl font-semibold">Sign In</h3>
-          <p className="text-sm ">
+          <h3 className="text-xl font-semibold text-purple">Sign In</h3>
+          <p className="text-sm text-purple">
             Use your email and password to sign in
           </p>
         </div>
         <Form type="login" />
       </div>
-      <img src="/montain.jpg" className="w-full"/>
+      <img src="/fields.jpg" className="w-full"/>
     </div>
   );
 }

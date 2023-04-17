@@ -16,14 +16,14 @@ export default function Login() {
               height={20}
             />
           </Link>
-          <h3 className="text-xl font-semibold">Sign Up</h3>
-          <p className="text-sm">
+          <h3 className="text-xl font-semibold text-purple">Sign Up</h3>
+          <p className="text-sm text-purple">
           Create an account with your email and password
           </p>
         </div>
         <Form type="register" />
       </div>
-      <img src="/fields.jpg" className="w-full"/>
+      <img src="/montain.jpg" className="w-full object-cover"/>
     </div>
   );
 }
